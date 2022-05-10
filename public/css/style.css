@@ -211,7 +211,7 @@ h2{
 .time {
     max-width: 1200;
     height: 500px;
-    padding: 30px;
+    padding: 10px;
 }
 .time-wrap {
     max-width: 1200;
@@ -259,9 +259,9 @@ h2{
     margin: 0 auto;
     overflow: hidden;
 }
-.trip > h2{
+.trip > title{
     color: #0E3C82;
-    border-bottom: 3px solid #5F9DC8; 
+    border-left: 3px solid #5F9DC8; 
     padding: 10px;
     font-weight: bold;
 }
@@ -272,9 +272,9 @@ h2{
     margin: 0 auto;
     overflow: hidden;
 }
-.food > h2{
+.food > title{
     color: #0E3C82;
-    border-bottom: 3px solid #5F9DC8; 
+    border-left: 3px solid #5F9DC8; 
     padding: 10px;
     font-weight: bold;
 }
@@ -291,4 +291,14 @@ h2{
     padding: 40px;
     margin: 0 auto;
     overflow: hidden;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+address p {
+    font-size: 12px;
 }
